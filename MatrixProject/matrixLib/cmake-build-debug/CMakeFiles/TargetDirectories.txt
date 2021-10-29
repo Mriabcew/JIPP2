@@ -1,0 +1,3 @@
+K:/JIPP2/MatrixProject/matrixLib/cmake-build-debug/CMakeFiles/matrixLib.dir
+K:/JIPP2/MatrixProject/matrixLib/cmake-build-debug/CMakeFiles/edit_cache.dir
+K:/JIPP2/MatrixProject/matrixLib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
