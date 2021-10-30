@@ -1,4 +1,4 @@
-# Install script for directory: K:/JIPP2/MatrixProject/matrixLib
+# Install script for directory: C:/Users/GIGABITE/CLionProjects/JIPP2/MatrixProject/matrixLib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

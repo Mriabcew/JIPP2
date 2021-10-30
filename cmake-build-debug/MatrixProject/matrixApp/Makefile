@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\JIPP2
+CMAKE_SOURCE_DIR = C:\Users\GIGABITE\CLionProjects\JIPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\JIPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = K:\JIPP2\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d K:\JIPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start K:\JIPP2\cmake-build-debug\CMakeFiles K:\JIPP2\cmake-build-debug\MatrixProject\matrixApp\\CMakeFiles\progress.marks
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\JIPP2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\MatrixProject\matrixApp\\CMakeFiles\progress.marks
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/clean
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/preinstall
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/preinstall
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d K:\JIPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule
 .PHONY : MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ matrixApp: MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule
 
 # fast build rule for target.
 matrixApp/fast:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/build
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/build
 .PHONY : matrixApp/fast
 
 src/main.obj: src/main.cpp.obj
@@ -134,7 +134,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.obj
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.i
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d K:\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.s
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d K:\JIPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

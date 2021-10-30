@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = K:\JIPP2
+CMAKE_SOURCE_DIR = C:\Users\GIGABITE\CLionProjects\JIPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = K:\JIPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -113,14 +113,14 @@ MatrixProject/matrixLib/clean: MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/
 MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f MatrixProject\matrixLib\CMakeFiles\matrixLib.dir\build.make MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f MatrixProject\matrixLib\CMakeFiles\matrixLib.dir\build.make MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\JIPP2\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target matrixLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target matrixLib"
 .PHONY : MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/all
 
 # Build rule for subdir invocation for target.
 MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\JIPP2\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\JIPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/clean:
 MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/all: MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/all
 	$(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f MatrixProject\matrixApp\CMakeFiles\matrixApp.dir\build.make MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=K:\JIPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target matrixApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target matrixApp"
 .PHONY : MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/all
 
 # Build rule for subdir invocation for target.
 MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\JIPP2\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start K:\JIPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\GIGABITE\CLionProjects\JIPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : MatrixProject/matrixApp/CMakeFiles/matrixApp.dir/rule
 
 # Convenience name for target.
