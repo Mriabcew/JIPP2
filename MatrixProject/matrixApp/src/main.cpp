@@ -8,7 +8,7 @@ int main(int argv,char** argc)
     else if (!(strcmp(argc[2], "int")))
         {
             int liczba_wierszy_a, liczba_kolumn_a, liczba_wierszy_b, liczba_kolumn_b;
-            if (!(strcmp(argc[1], "add"))) {
+            if (!(strcmp(argc[1], "addMatrix"))) {
                 p1:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -55,7 +55,7 @@ int main(int argv,char** argc)
                     cout << "\nNie mozna wykonac operacji" << endl;
 
             }//Jest OK
-            else if (!(strcmp(argc[1], "substract"))) {
+            else if (!(strcmp(argc[1], "subtractMatrix "))) {
                 p2:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -101,7 +101,7 @@ int main(int argv,char** argc)
                 }
 
             }//Jest OK
-            else if (!(strcmp(argc[1], "multiply"))) {
+            else if (!(strcmp(argc[1], "multiplyMatrix "))) {
                 p3:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -165,7 +165,7 @@ int main(int argv,char** argc)
                     delete[] macierz_a[i];
                 delete[] macierz_a;
             }//JEST OK
-            else if (!(strcmp(argc[1], "transpoze"))) {
+            else if (!(strcmp(argc[1], "transpozeMatrix"))) {
                 p5:
                 cout << "\tMACIERZ" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -279,7 +279,7 @@ int main(int argv,char** argc)
             }//JEST OK
         } else if (!(strcmp(argc[2], "double"))) {
             int liczba_wierszy_a, liczba_kolumn_a, liczba_wierszy_b, liczba_kolumn_b;
-            if (!(strcmp(argc[1], "add"))) {
+            if (!(strcmp(argc[1], "addMatrix"))) {
                 p10:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -326,7 +326,7 @@ int main(int argv,char** argc)
                     cout << "\nNie mozna wykonac operacji" << endl;
 
             }//Jest OK
-            else if (!(strcmp(argc[1], "substract"))) {
+            else if (!(strcmp(argc[1], "subtractMatrix"))) {
                 p11:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -370,7 +370,7 @@ int main(int argv,char** argc)
                 }
 
             }//Jest OK
-            else if (!(strcmp(argc[1], "multiply"))) {
+            else if (!(strcmp(argc[1], "multiplyMatrix"))) {
                 p12:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -434,7 +434,7 @@ int main(int argv,char** argc)
                     delete[] macierz_a[i];
                 delete[] macierz_a;
             }//JEST OK
-            else if (!(strcmp(argc[1], "transpoze"))) {
+            else if (!(strcmp(argc[1], "transpozeMatrix"))) {
                 p14:
                 cout << "\tMACIERZ" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -459,7 +459,7 @@ int main(int argv,char** argc)
 
 
             }//JEST OK
-            else if (!(strcmp(argc[1], "power"))) {
+            else if (!(strcmp(argc[1], "powerMatrix"))) {
                 p15:
                 unsigned int stopien_potegi;
                 cout << "\tMACIERZ I" << endl;
@@ -491,7 +491,7 @@ int main(int argv,char** argc)
                     cout << "nie jest to macierz kwadratowa" << endl;
                 }
             }//JEST OK
-            else if (!(strcmp(argc[1], "det"))) {
+            else if (!(strcmp(argc[1], "determinantMatrix"))) {
                 p16:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -507,7 +507,7 @@ int main(int argv,char** argc)
                 double det = determinantMatrix(macierz_a, liczba_wierszy_a, liczba_kolumn_a);
                 cout << "det=" << det << endl;
             }//jest OK
-            else if (!(strcmp(argc[1], "diagonal"))) {
+            else if (!(strcmp(argc[1], "matrixIsDiagonal"))) {
                 p17:
                 cout << "\tMACIERZ I" << endl;
                 cout << "Podaj liczbe wierszy" << endl;
@@ -530,7 +530,7 @@ int main(int argv,char** argc)
                     delete[] macierz_a;
                 } else
                     cout << "nie jest to macierz kwadrawtowa" << endl;
-            } else if (!(strcmp(argc[1], "SortRow"))) {
+            } else if (!(strcmp(argc[1], "SortRowsInMatrix"))) {
                 p19:
 
                 cout << "\tMACIERZ I" << endl;

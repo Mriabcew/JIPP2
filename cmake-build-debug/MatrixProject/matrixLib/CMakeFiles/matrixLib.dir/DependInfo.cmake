@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "K:/JIPP2/MatrixProject/matrixApp/src/main.cpp" "K:/JIPP2/cmake-build-debug/MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/__/matrixApp/src/main.cpp.obj"
-  "K:/JIPP2/MatrixProject/matrixLib/src/lib.cpp" "K:/JIPP2/cmake-build-debug/MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/src/lib.cpp.obj"
+  "C:/Users/GIGABITE/CLionProjects/JIPP2/MatrixProject/matrixApp/src/main.cpp" "C:/Users/GIGABITE/CLionProjects/JIPP2/cmake-build-debug/MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/__/matrixApp/src/main.cpp.obj"
+  "C:/Users/GIGABITE/CLionProjects/JIPP2/MatrixProject/matrixLib/src/lib.cpp" "C:/Users/GIGABITE/CLionProjects/JIPP2/cmake-build-debug/MatrixProject/matrixLib/CMakeFiles/matrixLib.dir/src/lib.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

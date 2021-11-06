@@ -116,7 +116,6 @@ int ** macierzPoWykresleniu(int** macierz,int liczba_wierszy,int liczba_kolumn,i
 }//JEST OK
 int determinantMatrix(int** macierz,int liczba_wierszy,int liczba_kolumn){
     if((liczba_wierszy<1)||(liczba_kolumn<1)){
-        cout << "BLAD WPISYWANIA" << endl;
         return -1;
     }
     if(liczba_wierszy!=liczba_kolumn)
@@ -180,10 +179,10 @@ void help()
 {
     cout<<"\t\nProsty kalkulator dla macierzy o nastepujacych funkcjach\n"<<
         "[parametr okresla dzialanie] [typ danych int/double]\n\n"<<
-        "1. add - dodawanie dwoch macierzy\n"<<
-        "2. substract - odejmowanie dwoch macierzy\n"<<
-        "3. multiply - mnozenie macierzy przez macierz\n"<<
-        "4. multiplybyscalar - mnozenie macierzy przez skalar\n"<<
+        "1. addMatrix - dodawanie dwoch macierzy\n"<<
+        "2. substractMatrix - odejmowanie dwoch macierzy\n"<<
+        "3. multiplyMatrix - mnozenie macierzy przez macierz\n"<<
+        "4. multiplyByScalar - mnozenie macierzy przez skalar\n"<<
         "5. transpozeMatrix - tranzspozycja macierzy\n"<<
         "6. powerMatrix - podnoszenie macierzy do potegi"
         "7. determinantMatrix  - obliczenie wyznacznika macierzy\n"<<
@@ -312,7 +311,6 @@ double ** macierzPoWykresleniu(double** macierz,int liczba_wierszy,int liczba_ko
 }//JEST OK
 double determinantMatrix(double** macierz,int liczba_wierszy,int liczba_kolumn){
     if((liczba_wierszy<1)||(liczba_kolumn<1)){
-        cout << "co ty odpierdalasz" << endl;
         return -1;
     }
     if(liczba_wierszy!=liczba_kolumn)
