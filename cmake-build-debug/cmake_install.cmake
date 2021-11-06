@@ -39,6 +39,26 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("K:/JIPP2/cmake-build-debug/LAB_1/allocation_basics/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("K:/JIPP2/cmake-build-debug/LAB_1/SimpleCalc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("K:/JIPP2/cmake-build-debug/LAB_2/firstLib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("K:/JIPP2/cmake-build-debug/LAB_2/firstLibCall/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/MatrixProject/matrixLib/cmake_install.cmake")
 endif()
 

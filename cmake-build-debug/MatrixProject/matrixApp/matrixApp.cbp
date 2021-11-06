@@ -5,7 +5,7 @@
 		<Option title="matrixApp"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\MatrixProject\;CMake Files\MatrixProject\matrixLib\;CMake Files\MatrixProject\matrixApp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\LAB_1\;CMake Files\LAB_1\allocation_basics\;CMake Files\LAB_1\SimpleCalc\;CMake Files\LAB_2\;CMake Files\LAB_2\firstLib\;CMake Files\LAB_2\firstLibCall\;CMake Files\MatrixProject\;CMake Files\MatrixProject\matrixLib\;CMake Files\MatrixProject\matrixApp\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="K:/JIPP2/cmake-build-debug/MatrixProject/matrixApp"/>
@@ -67,6 +67,18 @@
 		</Unit>
 		<Unit filename="K:/JIPP2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_1/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_1\allocation_basics\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_1/SimpleCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_1\SimpleCalc\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_2/firstLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_2\firstLib\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_2/firstLibCall/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_2\firstLibCall\"/>
 		</Unit>
 		<Unit filename="K:/JIPP2/MatrixProject/matrixLib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MatrixProject\matrixLib\"/>

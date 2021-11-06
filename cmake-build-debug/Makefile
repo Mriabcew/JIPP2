@@ -116,6 +116,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named allocation_basics
+
+# Build rule for target.
+allocation_basics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics
+.PHONY : allocation_basics
+
+# fast build rule for target.
+allocation_basics/fast:
+	$(MAKE) $(MAKESILENT) -f LAB_1\allocation_basics\CMakeFiles\allocation_basics.dir\build.make LAB_1/allocation_basics/CMakeFiles/allocation_basics.dir/build
+.PHONY : allocation_basics/fast
+
+#=============================================================================
+# Target rules for targets named simpleCalc
+
+# Build rule for target.
+simpleCalc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc
+.PHONY : simpleCalc
+
+# fast build rule for target.
+simpleCalc/fast:
+	$(MAKE) $(MAKESILENT) -f LAB_1\SimpleCalc\CMakeFiles\simpleCalc.dir\build.make LAB_1/SimpleCalc/CMakeFiles/simpleCalc.dir/build
+.PHONY : simpleCalc/fast
+
+#=============================================================================
+# Target rules for targets named firstLib
+
+# Build rule for target.
+firstLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib
+.PHONY : firstLib
+
+# fast build rule for target.
+firstLib/fast:
+	$(MAKE) $(MAKESILENT) -f LAB_2\firstLib\CMakeFiles\firstLib.dir\build.make LAB_2/firstLib/CMakeFiles/firstLib.dir/build
+.PHONY : firstLib/fast
+
+#=============================================================================
+# Target rules for targets named firstLibCall
+
+# Build rule for target.
+firstLibCall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLibCall
+.PHONY : firstLibCall
+
+# fast build rule for target.
+firstLibCall/fast:
+	$(MAKE) $(MAKESILENT) -f LAB_2\firstLibCall\CMakeFiles\firstLibCall.dir\build.make LAB_2/firstLibCall/CMakeFiles/firstLibCall.dir/build
+.PHONY : firstLibCall/fast
+
+#=============================================================================
 # Target rules for targets named matrixLib
 
 # Build rule for target.
@@ -149,8 +201,12 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... allocation_basics
+	@echo ... firstLib
+	@echo ... firstLibCall
 	@echo ... matrixApp
 	@echo ... matrixLib
+	@echo ... simpleCalc
 .PHONY : help
 
 

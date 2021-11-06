@@ -1,29 +1,19 @@
 "K:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" K:\JIPP2
-CMake Warning (dev) in CMakeLists.txt:
-  No project() command is present.  The top-level CMakeLists.txt file must
-  contain a literal, direct call to the project() command.  Add a line of
-  code such as
+CMake Error at CMakeLists.txt:13 (add_subdirectory):
+  The source directory
 
-    project(ProjectName)
+    K:/JIPP2/LAB_3/firstClass
 
-  near the top of the file, but after cmake_minimum_required().
+  does not contain a CMakeLists.txt file.
 
-  CMake is pretending there is a "project(Project)" command on the first
-  line.
-This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- The C compiler identification is GNU 8.1.0
--- The CXX compiler identification is GNU 8.1.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: K:/JIPP2/cmake-build-debug
+CMake Error at CMakeLists.txt:15 (add_subdirectory):
+  The source directory
+
+    K:/JIPP2/LAB_3/structExercise
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "K:/JIPP2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
