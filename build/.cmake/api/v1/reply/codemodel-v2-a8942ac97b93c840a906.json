@@ -1,0 +1,357 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "LAB_1/allocation_basics",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LAB_1/allocation_basics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "LAB_1/SimpleCalc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "LAB_1/SimpleCalc",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "LAB_2/firstLib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LAB_2/firstLib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "LAB_2/firstLibCall",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "LAB_2/firstLibCall",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "LAB_3/firstClass",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "LAB_3/firstClass",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "LAB_3/structExercise",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "LAB_3/structExercise",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "LAB_3/ClassExercise",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "LAB_3/ClassExercise",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "MatrixProject/matrixLib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "MatrixProject/matrixLib",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "MatrixProject/matrixApp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "MatrixProject/matrixApp",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "JIPP2",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "allocation_basics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SimpleCalc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "firstLibCall",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "firstClass",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "structExercise",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "firstClass",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "matrixLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "matrixApp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "ClassExercise::@34086dc1bb71a6158161",
+					"jsonFile" : "target-ClassExercise-Debug-5302aa7a21b3ff608d27.json",
+					"name" : "ClassExercise",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "allocation_basics::@dc317f5e632bded10c59",
+					"jsonFile" : "target-allocation_basics-Debug-28cbd07da9de6b9ff6f8.json",
+					"name" : "allocation_basics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "firstClass::@f5b55b8e17edaa4ae3fb",
+					"jsonFile" : "target-firstClass-Debug-015a6e848c644f2113e9.json",
+					"name" : "firstClass",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "firstLib::@1b3b58d8223b17feb1f6",
+					"jsonFile" : "target-firstLib-Debug-3d83f7401bd48dd1f296.json",
+					"name" : "firstLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "firstLibCall::@c4c91e48001dfba41b63",
+					"jsonFile" : "target-firstLibCall-Debug-0301091d215c15e49611.json",
+					"name" : "firstLibCall",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "matrixApp::@926f8ba5270e7edf5277",
+					"jsonFile" : "target-matrixApp-Debug-d2012811c72d85490be7.json",
+					"name" : "matrixApp",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "matrixLib::@08799cbbeca258c1b42c",
+					"jsonFile" : "target-matrixLib-Debug-38d4943e7f11624723f2.json",
+					"name" : "matrixLib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "simpleCalc::@190c54b145367047b884",
+					"jsonFile" : "target-simpleCalc-Debug-b51bc16fe274fe7b9b23.json",
+					"name" : "simpleCalc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "structExercise::@a68dc37242e21919947f",
+					"jsonFile" : "target-structExercise-Debug-72b8bc09a169308b4caf.json",
+					"name" : "structExercise",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "K:/JIPP2/JIPP2/build",
+		"source" : "K:/JIPP2/JIPP2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
