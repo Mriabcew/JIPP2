@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.12)
 
 PROJECT(JIPP2)
 
@@ -19,6 +19,8 @@ add_subdirectory(LAB_3/ClassExercise)
 add_subdirectory(LAB_4/Example)
 
 add_subdirectory(LAB_5/5.1)
+
+add_subdirectory(LAB_8)
 
 add_subdirectory(MatrixProject/matrixLib)
 
