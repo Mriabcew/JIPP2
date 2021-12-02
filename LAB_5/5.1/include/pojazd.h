@@ -17,6 +17,8 @@ private:
     string *dane_pasarzera;
     string typ_pojazdu;
     string marka;
+    static string najnowsza_wersja_oprogramowania;
+    string zainstalowania_wersja_oprogramowania;
 public:
     Pojazd();
     void pokazDane();

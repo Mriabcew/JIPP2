@@ -38,58 +38,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
+  # Include the install script for each subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_1/allocation_basics/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_1/SimpleCalc/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_2/firstLib/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_2/firstLibCall/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_3/firstClass/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_3/structExercise/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_3/ClassExercise/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_4/Example/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/LAB_5/5.1/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
+  include("K:/JIPP2/cmake-build-debug/LAB_5/5.2/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_5/5.3/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_6/Vector/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_6/Node/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_6/Complex/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_6/Traingle/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_7/Figure/cmake_install.cmake")
+  include("K:/JIPP2/cmake-build-debug/LAB_8/cmake_install.cmake")
   include("K:/JIPP2/cmake-build-debug/MatrixProject/matrixLib/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("K:/JIPP2/cmake-build-debug/MatrixProject/matrixApp/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

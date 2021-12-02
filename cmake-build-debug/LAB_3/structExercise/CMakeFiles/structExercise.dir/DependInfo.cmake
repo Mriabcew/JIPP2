@@ -4,21 +4,12 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "K:/JIPP2/LAB_3/structExercise/src/func.cpp" "K:/JIPP2/cmake-build-debug/LAB_3/structExercise/CMakeFiles/structExercise.dir/src/func.cpp.obj"
-  "K:/JIPP2/LAB_3/structExercise/src/main.cpp" "K:/JIPP2/cmake-build-debug/LAB_3/structExercise/CMakeFiles/structExercise.dir/src/main.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "K:/JIPP2/LAB_3/structExercise/src/func.cpp" "LAB_3/structExercise/CMakeFiles/structExercise.dir/src/func.cpp.obj" "gcc" "LAB_3/structExercise/CMakeFiles/structExercise.dir/src/func.cpp.obj.d"
+  "K:/JIPP2/LAB_3/structExercise/src/main.cpp" "LAB_3/structExercise/CMakeFiles/structExercise.dir/src/main.cpp.obj" "gcc" "LAB_3/structExercise/CMakeFiles/structExercise.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

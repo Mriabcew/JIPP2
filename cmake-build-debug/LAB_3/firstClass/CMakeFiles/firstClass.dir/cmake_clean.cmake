@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/firstClass.dir/src/MyFirstClass.cpp.obj"
+  "CMakeFiles/firstClass.dir/src/MyFirstClass.cpp.obj.d"
   "CMakeFiles/firstClass.dir/src/main.cpp.obj"
+  "CMakeFiles/firstClass.dir/src/main.cpp.obj.d"
   "firstClass.exe"
   "firstClass.exe.manifest"
   "firstClass.pdb"

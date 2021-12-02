@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/allocation_basics.dir/main.cpp.obj"
+  "CMakeFiles/allocation_basics.dir/main.cpp.obj.d"
   "allocation_basics.exe"
   "allocation_basics.exe.manifest"
   "allocation_basics.pdb"

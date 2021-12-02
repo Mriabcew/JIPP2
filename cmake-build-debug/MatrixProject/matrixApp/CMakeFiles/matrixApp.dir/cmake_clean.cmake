@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/matrixApp.dir/src/main.cpp.obj"
+  "CMakeFiles/matrixApp.dir/src/main.cpp.obj.d"
   "libmatrixApp.dll.a"
   "matrixApp.exe"
   "matrixApp.exe.manifest"

@@ -4,13 +4,13 @@
 #include "../include/pojazd.h"
 
 void Pojazd::pokazDane()  {
-    cout<<"| numer rejstracyjny | nazwa | miejsca | marka | typ pojazdu"<<endl;
-    cout<< nr_rejstracyjny << " " << nazwa <<" " << liczba_miejsc <<" ";
+    cout<<"| numer rejstracyjny | nazwa | miejsca | marka | typ pojazdu | zainstalowane oprogramownie | najnowsze oprogramowanie |"<<endl;
+    cout<< nr_rejstracyjny << " " << nazwa <<" " << liczba_miejsc ;
     for(int i=0;i<liczba_miejsc;i++)
     {
         cout<<dane_pasarzera[i]<<" ";
     }
-    cout<<marka<<" "<<typ_pojazdu;
+    cout<<marka<<" "<<typ_pojazdu<<" "<<zainstalowania_wersja_oprogramowania<<" "<<najnowsza_wersja_oprogramowania;
 }
 
 void Pojazd::uzupenijDane(int i,string dane)

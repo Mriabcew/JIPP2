@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simpleCalc.dir/src/calc.cpp.obj"
+  "CMakeFiles/simpleCalc.dir/src/calc.cpp.obj.d"
   "CMakeFiles/simpleCalc.dir/src/main.cpp.obj"
+  "CMakeFiles/simpleCalc.dir/src/main.cpp.obj.d"
   "libsimpleCalc.dll.a"
   "simpleCalc.exe"
   "simpleCalc.exe.manifest"

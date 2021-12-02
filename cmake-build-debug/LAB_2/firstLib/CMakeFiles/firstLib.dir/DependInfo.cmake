@@ -4,21 +4,11 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "K:/JIPP2/LAB_2/firstLib/src/lib.cpp" "K:/JIPP2/cmake-build-debug/LAB_2/firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../LAB_2/firstLib/include"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "K:/JIPP2/LAB_2/firstLib/src/lib.cpp" "LAB_2/firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.obj" "gcc" "LAB_2/firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.obj.d"
   )
 
 # Targets to which this target links.

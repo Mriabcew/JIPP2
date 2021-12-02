@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "5.1.exe.manifest"
   "5.1.pdb"
   "CMakeFiles/5.1.dir/src/main.cpp.obj"
+  "CMakeFiles/5.1.dir/src/main.cpp.obj.d"
   "CMakeFiles/5.1.dir/src/pojazd.cpp.obj"
+  "CMakeFiles/5.1.dir/src/pojazd.cpp.obj.d"
   "lib5.1.dll.a"
 )
 

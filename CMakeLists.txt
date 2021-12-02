@@ -20,6 +20,20 @@ add_subdirectory(LAB_4/Example)
 
 add_subdirectory(LAB_5/5.1)
 
+add_subdirectory(LAB_5/5.2)
+
+add_subdirectory(LAB_5/5.3)
+
+add_subdirectory(LAB_6/Vector)
+
+add_subdirectory(LAB_6/Node)
+
+add_subdirectory(LAB_6/Complex)
+
+add_subdirectory(LAB_6/Traingle)
+
+add_subdirectory(LAB_7/Figure)
+
 add_subdirectory(LAB_8)
 
 add_subdirectory(MatrixProject/matrixLib)

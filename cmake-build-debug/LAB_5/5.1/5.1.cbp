@@ -5,7 +5,7 @@
 		<Option title="5.1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\LAB_5\;CMake Files\LAB_5\5.1\;CMake Files\LAB_1\;CMake Files\LAB_1\allocation_basics\;CMake Files\LAB_1\SimpleCalc\;CMake Files\LAB_2\;CMake Files\LAB_2\firstLib\;CMake Files\LAB_2\firstLibCall\;CMake Files\LAB_3\;CMake Files\LAB_3\firstClass\;CMake Files\LAB_3\structExercise\;CMake Files\LAB_3\ClassExercise\;CMake Files\LAB_4\;CMake Files\LAB_4\Example\;CMake Files\MatrixProject\;CMake Files\MatrixProject\matrixLib\;CMake Files\MatrixProject\matrixApp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\LAB_5\;CMake Files\LAB_5\5.1\;CMake Files\LAB_5\5.2\;CMake Files\LAB_5\5.3\;CMake Files\LAB_6\;CMake Files\LAB_6\Complex\;CMake Files\LAB_6\Vector\;CMake Files\LAB_6\Node\;CMake Files\LAB_6\Traingle\;CMake Files\LAB_7\;CMake Files\LAB_7\Figure\;CMake Files\LAB_1\;CMake Files\LAB_1\allocation_basics\;CMake Files\LAB_1\SimpleCalc\;CMake Files\LAB_2\;CMake Files\LAB_2\firstLib\;CMake Files\LAB_2\firstLibCall\;CMake Files\LAB_3\;CMake Files\LAB_3\firstClass\;CMake Files\LAB_3\structExercise\;CMake Files\LAB_3\ClassExercise\;CMake Files\LAB_4\;CMake Files\LAB_4\Example\;CMake Files\LAB_8\;CMake Files\MatrixProject\;CMake Files\MatrixProject\matrixLib\;CMake Files\MatrixProject\matrixApp\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="K:/JIPP2/cmake-build-debug/LAB_5/5.1"/>
@@ -74,6 +74,27 @@
 		<Unit filename="K:/JIPP2/LAB_5/5.1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\LAB_5\5.1\"/>
 		</Unit>
+		<Unit filename="K:/JIPP2/LAB_5/5.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_5\5.2\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_5/5.3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_5\5.3\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_6/Complex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_6\Complex\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_6/Vector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_6\Vector\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_6/Node/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_6\Node\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_6/Traingle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_6\Traingle\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_7/Figure/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_7\Figure\"/>
+		</Unit>
 		<Unit filename="K:/JIPP2/LAB_1/allocation_basics/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\LAB_1\allocation_basics\"/>
 		</Unit>
@@ -97,6 +118,9 @@
 		</Unit>
 		<Unit filename="K:/JIPP2/LAB_4/Example/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\LAB_4\Example\"/>
+		</Unit>
+		<Unit filename="K:/JIPP2/LAB_8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB_8\"/>
 		</Unit>
 		<Unit filename="K:/JIPP2/MatrixProject/matrixLib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\MatrixProject\matrixLib\"/>

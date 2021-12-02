@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/e1NoCopyingConstructor.dir/src/Point.cpp.obj"
+  "CMakeFiles/e1NoCopyingConstructor.dir/src/Point.cpp.obj.d"
   "CMakeFiles/e1NoCopyingConstructor.dir/src/main.cpp.obj"
+  "CMakeFiles/e1NoCopyingConstructor.dir/src/main.cpp.obj.d"
   "e1NoCopyingConstructor.exe"
   "e1NoCopyingConstructor.exe.manifest"
   "e1NoCopyingConstructor.pdb"

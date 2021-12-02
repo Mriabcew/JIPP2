@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/structExercise.dir/src/func.cpp.obj"
+  "CMakeFiles/structExercise.dir/src/func.cpp.obj.d"
   "CMakeFiles/structExercise.dir/src/main.cpp.obj"
+  "CMakeFiles/structExercise.dir/src/main.cpp.obj.d"
   "libstructExercise.dll.a"
   "structExercise.exe"
   "structExercise.exe.manifest"
