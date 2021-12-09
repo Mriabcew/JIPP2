@@ -1,0 +1,763 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "LAB_2/allocation_basics",
+					"jsonFile" : "directory-LAB_2.allocation_basics-Debug-408ff1e2079530c2fb76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LAB_2/allocation_basics",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "LAB_2/SimpleCalc",
+					"jsonFile" : "directory-LAB_2.SimpleCalc-Debug-8ad5c6d933bca54cfedc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "LAB_2/SimpleCalc",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "LAB_3/firstLib",
+					"jsonFile" : "directory-LAB_3.firstLib-Debug-0d00ae78f2ceae79cc13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LAB_3/firstLib",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "LAB_3/firstLibCall",
+					"jsonFile" : "directory-LAB_3.firstLibCall-Debug-aaf39e7afb3c464e3f3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "LAB_3/firstLibCall",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "LAB_3/PrzeciazanieFunkcji",
+					"jsonFile" : "directory-LAB_3.PrzeciazanieFunkcji-Debug-49150e5711f82395bd53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "LAB_3/PrzeciazanieFunkcji",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "LAB_3/tabExercise",
+					"jsonFile" : "directory-LAB_3.tabExercise-Debug-ea4d1652f0104ed9d086.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "LAB_3/tabExercise",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "LAB_3/pointerExercise",
+					"jsonFile" : "directory-LAB_3.pointerExercise-Debug-23b760eec5a5e0ab74fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "LAB_3/pointerExercise",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "LAB_3/bledy",
+					"jsonFile" : "directory-LAB_3.bledy-Debug-0e0a9bb8c4bf852fc602.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "LAB_3/bledy",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "LAB_4/firstClass",
+					"jsonFile" : "directory-LAB_4.firstClass-Debug-6843165e4ad027f06b91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "LAB_4/firstClass",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "LAB_4/structExercise",
+					"jsonFile" : "directory-LAB_4.structExercise-Debug-17bf17fe56d4b45462a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "LAB_4/structExercise",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "LAB_4/ClassExercise",
+					"jsonFile" : "directory-LAB_4.ClassExercise-Debug-08edce38cc9c6cd03323.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "LAB_4/ClassExercise",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "LAB_5/Example",
+					"jsonFile" : "directory-LAB_5.Example-Debug-434525caa3cb9b00901f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "LAB_5/Example",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "LAB_5/Lab5",
+					"jsonFile" : "directory-LAB_5.Lab5-Debug-acd7a33849ab6aaf8c26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "LAB_5/Lab5",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "LAB_6/Traingle",
+					"jsonFile" : "directory-LAB_6.Traingle-Debug-672d136dfe8f993f8cc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "LAB_6/Traingle",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "LAB_7",
+					"jsonFile" : "directory-LAB_7-Debug-6d53243a6f285e0b3013.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "LAB_7",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "LAB_8",
+					"jsonFile" : "directory-LAB_8-Debug-3f200f2cd20c8fb88db5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "LAB_8",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "LAB_9/Vector",
+					"jsonFile" : "directory-LAB_9.Vector-Debug-7189203224bbec310d63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "LAB_9/Vector",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "LAB_9/List",
+					"jsonFile" : "directory-LAB_9.List-Debug-fece0558f3d051dfed0c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "LAB_9/List",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "MatrixProject/matrixLib",
+					"jsonFile" : "directory-MatrixProject.matrixLib-Debug-e2db73477457b2158aa1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "MatrixProject/matrixLib",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "MatrixProject/matrixApp",
+					"jsonFile" : "directory-MatrixProject.matrixApp-Debug-1fb7aaa72c47bfe3c1fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "MatrixProject/matrixApp",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "JIPP2",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "allocation_basics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SimpleCalc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "firstLibCall",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "fun_overload",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "tabExercise",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "PointerExercise",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "BLEDY",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "firstClass",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "structExercise",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "ClassExercise",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "e1NoCopyingConstructor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "LAB5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "Traingle",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "LAb7",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Note",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "Vector_LAB_9",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "List_LAB_9",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "matrixLib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "matrixApp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "BLEDY::@866538b5b004b911be41",
+					"jsonFile" : "target-BLEDY-Debug-2bd8a0e1f525f0f8f5a8.json",
+					"name" : "BLEDY",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ClassExercise::@1009d53eaecc93af0f4d",
+					"jsonFile" : "target-ClassExercise-Debug-4a4a8c85e5065ac2bd64.json",
+					"name" : "ClassExercise",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "LAB5::@405582e1327f90573253",
+					"jsonFile" : "target-LAB5-Debug-ec69561abdb437b448dd.json",
+					"name" : "LAB5",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "LAB7::@b3181e997349cde3adba",
+					"jsonFile" : "target-LAB7-Debug-624efed371b26d2acd1b.json",
+					"name" : "LAB7",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "List_LAB_9::@2d4738277310723e6201",
+					"jsonFile" : "target-List_LAB_9-Debug-31fa8144cde35b1bc4b8.json",
+					"name" : "List_LAB_9",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Note::@e8654d4e505390f6896d",
+					"jsonFile" : "target-Note-Debug-256e73325895c2d0bd7d.json",
+					"name" : "Note",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "PointerExercise::@aecfb1377a56781bb8b4",
+					"jsonFile" : "target-PointerExercise-Debug-08532ef348408922a82a.json",
+					"name" : "PointerExercise",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Traingle::@1aeddff45e767e410642",
+					"jsonFile" : "target-Traingle-Debug-92b2864a9446b43f8439.json",
+					"name" : "Traingle",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "Vector_LAB_9::@a81d36e2c8fff2ebb2a3",
+					"jsonFile" : "target-Vector_LAB_9-Debug-4ab655c4b36dae16fb35.json",
+					"name" : "Vector_LAB_9",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "allocation_basics::@53a39ac541a59ea4ef98",
+					"jsonFile" : "target-allocation_basics-Debug-db0aa561adb4728e138c.json",
+					"name" : "allocation_basics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "e1NoCopyingConstructor::@8678c9e58d26ce929bd0",
+					"jsonFile" : "target-e1NoCopyingConstructor-Debug-7d278e0586994dfeed17.json",
+					"name" : "e1NoCopyingConstructor",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "firstClass::@510a2857c4a703a0d973",
+					"jsonFile" : "target-firstClass-Debug-075b7ccb37f8e790ec92.json",
+					"name" : "firstClass",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "firstLib::@b89c9ad4582e3f97dbd0",
+					"jsonFile" : "target-firstLib-Debug-b7ae7268c787209c5d81.json",
+					"name" : "firstLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "firstLibCall::@2501353c5887fe80e31d",
+					"jsonFile" : "target-firstLibCall-Debug-3dfdb83120dccba02802.json",
+					"name" : "firstLibCall",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fun_overload::@413a2ec4c0eab8476316",
+					"jsonFile" : "target-fun_overload-Debug-c25d3c6fcafa6afbf703.json",
+					"name" : "fun_overload",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "matrixApp::@926f8ba5270e7edf5277",
+					"jsonFile" : "target-matrixApp-Debug-ff1bf82f36c00bb2afaf.json",
+					"name" : "matrixApp",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "matrixLib::@08799cbbeca258c1b42c",
+					"jsonFile" : "target-matrixLib-Debug-d8c4cf6e32c23ec42add.json",
+					"name" : "matrixLib",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "simpleCalc::@96a53f0c39c8334a7c77",
+					"jsonFile" : "target-simpleCalc-Debug-119de01e264870df379b.json",
+					"name" : "simpleCalc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "structExercise::@144d5446e49190ee7338",
+					"jsonFile" : "target-structExercise-Debug-7ddc7e475bcc5660ede5.json",
+					"name" : "structExercise",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tabExercise::@63abce2c413eebd45e18",
+					"jsonFile" : "target-tabExercise-Debug-38dacb49a8631485d4ba.json",
+					"name" : "tabExercise",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "K:/JIPP2/cmake-build-debug",
+		"source" : "K:/JIPP2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

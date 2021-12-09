@@ -1,0 +1,220 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "K:/CLion/CLion 2021.2.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "LAB_2/allocation_basics/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_2/SimpleCalc/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_3/firstLib/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_3/firstLibCall/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_3/PrzeciazanieFunkcji/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_3/tabExercise/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_3/pointerExercise/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_3/bledy/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_4/firstClass/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_4/structExercise/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_4/ClassExercise/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_5/Example/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_5/Lab5/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_6/Traingle/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_7/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_8/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_9/Vector/CMakeLists.txt"
+		},
+		{
+			"path" : "LAB_9/List/CMakeLists.txt"
+		},
+		{
+			"path" : "MatrixProject/matrixLib/CMakeLists.txt"
+		},
+		{
+			"path" : "MatrixProject/matrixApp/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "K:/JIPP2/cmake-build-debug",
+		"source" : "K:/JIPP2"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
